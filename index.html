@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <!--Custom CSS Link-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="icon" href="./Images/MyLogo.png">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Start Popup-->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Welcome!</h2>
+            <p>This is My Portfolio Website</p>
+        </div>
+    </div>
+    <!--End Popup-->
+    <!--Start Navbar-->
+    <nav class="navbar" id="navbar">    
+        <div class="container nav-container">
+            <img src="./Images/MyLogo-removebg-preview.png" class="logo2" alt=""><a href="#About" class="logo"><b>Zaldy Alamsyah M</b></a>
+            <button id="toggleButton" onclick="toggleMode()">
+                <img id="icon" src="./Images/moon.png" alt="Moon Icon" />
+            </button>             
+            <div class="hamburger" id="hamburger">
+                &#9776; <!-- Hamburger icon -->
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a class="hoverable" href="#About">About</a></li>
+                <li><a class="hoverable" href="#Experience">Experince</a></li>
+                <li><a class="hoverable" href="#Project">Project</a></li>
+                <li><a class="hoverable" href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--End Navbar-->
+    <!--Start Header Section-->
+    <header id="About">
+        <div class="container header-container">
+            <div class="header-left">
+                <img src="./Images/me2x_cleanup.png"/>
+                <div class="overlay">My Name is Zaldy</div>
+            </div>
+            <div class="header-right">
+                <p><b>Hello, I'm</b></p>
+                <h1><span class="zaldy">Zaldy</span> Alamsyah Mokoginta</h1>
+                <h2>Graphic Designer | Video Editor | Photographer | Videographer | Multimedia</h2>
+                <img src="./Images/about-removebg-preview-transformed.png" class="about-text">
+            <div class="header-social">
+                <a href="#Contact" class="btn btn-dark">Contact</a>
+                <a href="https://www.linkedin.com/in/zaldy-alamsyah-mokoginta-18536224b/"><img src="./Images/linkedin.png" class="icon1" alt=""></a>
+                <a href="https://github.com/zaldy2296"><img src="./Images/github.png" class="icon1" alt=""></a>
+                <a href="https://www.instagram.com/halcyon.zx/"><img src="./Images/instagram.png" class="icon1" alt=""></a>
+                <a href="#Contact"><img src="./Images/email.png" class="email-logo" alt=""></a>
+            </div>
+        </div>
+    </div>
+</header>
+    <!--End Header Section-->
+    <!--Start Experience Section-->
+    <section id="Experience">
+        <p class="heading-p">Explore My</p>
+        <h1 class="heading">Experience</h1>
+        <div class="container experience-container">
+            <div class="experience-box">
+                <div class="experience">
+                    <div class="ex-div">
+                        <img src="./Images/OkvLogo.png" class="icon1" alt="">
+                        <div class="text">
+                            <h4>Oke Visual</h4>
+                            <p>Photographer</p>
+                            <p>Videographer</p>
+                        </div>
+                    </div>
+                    <div class="ex-div">
+                        <img src="./Images/AmalIbadahLogo.png" class="icon1" alt="">
+                        <div class="text">
+                            <h4>Amal Ibadah</h4>
+                            <p>Graphic Designer</p>
+                            <p>Article Web Writer</p>
+                        </div>
+                    </div>
+                    <div class="ex-div">
+                        <img src="./Images/FriendsLogo.png" class="icon1" alt="">
+                        <div class="text">
+                            <h4>Friends Production</h4>
+                            <p>Graphic Designer</p>
+                        </div>
+                    </div>
+                    <div class="ex-div">
+                        <img src="./Images/OkemLogo.png" class="icon1" alt="">
+                        <div class="text">
+                            <h4>Oke Multimedia</h4>
+                            <p>LED Maintance</p>
+                            <p>LED Operator</p>
+                        </div>
+                    </div>
+                    <div class="ex-div">
+                        <img src="./Images/RantangBekahLogo.png" class="icon1" alt="">
+                        <div class="text">
+                            <h4>Rantang Berkah</h4>
+                            <p>Graphic Designer</p>
+                        </div>
+                    </div>
+                    <div class="ex-div">
+                        <img src="./Images/HKgroupLogo.png" class="icon1" alt="">
+                        <div class="text">
+                            <h4>HK Group</h4>
+                            <p>General Helper</p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!--End Experience Section-->
+    <!--Start Project Section-->
+    <section id="Project">
+        <p class="heading-p">Browse My Recent</p>
+        <h1 class="heading">Project</h1>
+        <div class="container project-container">
+            <div class="project">
+                <video src="./Images/Comp 1.mp4" autoplay loop muted class="zoomable" onclick="toggleZoom(this)"></video>
+                <h3>Video Editing</h3>
+                <div class="header-action-aria">
+                    <a href="" class="btn">Short</a>
+                    <a href="" class="btn">Movie Trailer</a>
+                </div>
+            </div>
+            <div class="project">
+                <video src="./Images/Comp 2.mp4" autoplay loop muted class="zoomable" onclick="toggleZoom(this)"></video>
+                <h3>Motion Graphic</h3>
+                <div class="header-action-aria">
+                    <a href="" class="btn">Title</a>
+                    <a href="" class="btn">Intro</a>
+                </div>
+            </div>
+            <div class="project" >
+                <video src="./Images/Comp 3.mp4" autoplay loop muted class="zoomable" onclick="toggleZoom(this)"></video>
+                <h3>Videography</h3>
+                <div class="header-action-aria">
+                    <a href="" class="btn">Shooting</a>
+                    <a href="" class="btn"></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./Images/Illust 2.jpg" alt="" class="zoomable" onclick="toggleZoom(this)">
+                <h3>Photography</h3>
+                <div class="header-action-aria">
+                    <a href="" class="btn">Photo</a>
+                    <a href="" class="btn">Product</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./Images/Illust 1.png" alt="" class="zoomable" onclick="toggleZoom(this)">
+                <h3>Graphic Design</h3>
+                <div class="header-action-aria">
+                    <a href="" class="btn">Aesthetic</a>
+                    <a href="" class="btn">Design</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./Images/Sosial.png" alt="" class="zoomable" onclick="toggleZoom(this)">
+                <h3>Design Graphic</h3>
+                <div class="header-action-aria">
+                    <a href="" class="btn">Social Media</a>
+                    <a href="" class="btn">Design</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Project Section-->
+    <!--Start Contact Section-->
+    <section id="Contact">
+        <p class="heading-p">Get in Touch</p>
+        <h1 class="heading">Contact Me</h1>
+        <div class="contact-container container">
+            <div class="email">
+                <img src="./Images/email.png" class="icon1" alt="">
+                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJlGTZFDCdDKLvPdZWRgjcPPxtKJCRkHgVpMgfDmDxjLkxtrtlwZThhxqfHNXxcGDjHKMpL"><h5>zaldyalamsyahm2296@gmail.com</h5></a>
+            </div>
+        </div>
+    </section>
+    <!--End Contact Section-->
+    <!--Start Footer Section-->
+    <footer>
+        <p>&copy; Copyright Zaldy Alamsyah M || All Right Reserved.</p>
+    </footer>
+    <!--End Footer Section-->
+<script src="script.js"></script>
+</body>
+</html>
