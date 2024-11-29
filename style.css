@@ -455,28 +455,21 @@ header{
 .header-right p{
     color: var(--color-dark-variant);
     text-align: start;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 .header-right .zaldy{
     color: var(--text-color-highlight);
 }
 .header-right h2{
     margin-top: .2rem;
-    text-align: start;
-    padding-left: 15px;
-    margin-left: 5px;
     font-size: 15px;
-}
-
-.header-right h2{
-    margin-top: 2px;
-    padding-left: 10px;
+    text-align: start;
+    margin-left: 5px;
 }
 .header-right h1{
     font-size: 28px;
     text-align: start;
-    padding-left: 10px;
-    margin-left: 4px;
+    margin-left: 5px;
 }
 
 .header-social .email-logo{
@@ -888,12 +881,10 @@ footer .nav-links{
         height: 40px;
     }
     .header-left:hover .overlay {
-        margin-right: 600px;
-        margin-left: -22px;
+        margin: auto;
       }
     .header-left .overlay {
-        margin-right: 600px;
-        margin-left: -22px;
+        margin: auto;
       }
     /*Start Navbar*/
     a{
