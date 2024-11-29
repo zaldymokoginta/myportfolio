@@ -878,6 +878,61 @@ footer .nav-links{
     }
 }
 
+@media(max-width: 360px){
+    #icon{
+        width: 25px;
+    }
+    .logo2{
+        display: flex;
+        width: 40px;
+        height: 40px;
+    }
+    .header-left:hover .overlay {
+        margin-right: 600px;
+        margin-left: -22px;
+      }
+    .header-left .overlay {
+        margin-right: 600px;
+        margin-left: -22px;
+      }
+    /*Start Navbar*/
+    a{
+        font-size: 16px;
+    }
+    /*Start Experience*/
+    .experience{
+        grid-template-columns: 1fr;
+    }
+    /*Start Footer*/
+    .header-right h1{
+        font-size: 2.3rem;
+    }
+    .bio{
+        font-size: 0.9rem;
+    }
+    .header-contact{
+        gap: 1rem;
+    }
+    .header-contact .btn-icon{
+        width: 100%;
+    }
+    .header-social{
+        gap: 0.8rem;
+    }
+    .email h5{
+        font-size: 13px;
+    }
+    .popup-content{
+        width: 250px;
+    }
+    #Contact{
+        padding-left: 30px;
+    }
+    Footer{
+        padding-left: 30px;
+    }
+}
+
 /* hamburger icon */
   .hamburger {
     display: none;
