@@ -872,6 +872,9 @@ footer .nav-links{
 }
 
 @media(max-width: 360px){
+    .popup-content{
+        width: 250px;
+    }
     #icon{
         width: 25px;
     }
@@ -880,16 +883,12 @@ footer .nav-links{
         width: 40px;
         height: 40px;
     }
-    .header-left:hover .overlay {
-        margin: auto;
-      }
-    .header-left .overlay {
-        margin: auto;
-      }
     /*Start Navbar*/
     a{
         font-size: 16px;
     }
+    /* Start Header */
+
     /*Start Experience*/
     .experience{
         grid-template-columns: 1fr;
