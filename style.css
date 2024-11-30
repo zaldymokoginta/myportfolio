@@ -872,6 +872,14 @@ footer .nav-links{
 }
 
 @media(max-width: 360px){
+    .header-left{
+        position: absolute;
+        top: 150px;
+        left: 60px;
+    }
+    .header-right{
+        margin-top: 250px;
+    }
     .popup-content{
         width: 250px;
     }
